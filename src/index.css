@@ -1,0 +1,75 @@
+.app{
+  color: rgb(151, 96, 179);
+  font-size: 22px;
+  border: solid 2px greenyellow;
+  min-height:10rem ;
+  justify-content: center;
+  text-align: center;
+margin-left: 35rem ;
+position: relative;
+top: 9rem;
+right: 4rem;
+background: rgb(58,187,57);
+background: linear-gradient(90deg, rgb(214, 224, 178) 0%, rgba(221, 174, 127, 0.83) 66% );
+border-radius: 10px;
+margin-right: 25rem ; 
+align-items: center;
+vertical-align: auto;
+padding: 2rem;
+max-width: 22rem;
+@media screen and (max-width:600px) {
+  margin-left: 6rem;
+  margin-top: 4rem;
+  width: 100%;
+}
+
+}
+.btn{
+
+    display: flex;
+position: relative;
+top: 3rem;
+left: -6rem;
+border: none;
+padding: 12px ;
+border-radius:4px ;
+font-size: 0.8rem;
+font-family: sans-serif;
+color: white;
+background-color: red;
+
+}
+.score-section{
+
+font-size: larger;
+}
+
+
+.question-count{
+font-size: 32px;
+padding: 0.9rem;
+
+  background: -webkit-linear-gradient(#8cbed4, #ee1414 ,black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  font-family: 'Times New Roman', Times, serif;
+
+
+}
+.questionText{
+  background-color: #8cbed4;
+}
+button{
+  margin: 1rem auto;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 5px ;
+  border: none;
+  /* color: white; */
+  cursor: pointer;
+
+}
+button:hover{
+  background-color: aqua;
+/* cursor: pointer; */
+}
